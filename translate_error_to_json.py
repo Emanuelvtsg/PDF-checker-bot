@@ -1,6 +1,6 @@
 import json
 
-with open("error.log", "r", encoding="utf-8") as log_file:
+with open("./data/error.log", "r", encoding="utf-8") as log_file:
     last_article = ''
     for line in log_file:
         data = line.split("/")
